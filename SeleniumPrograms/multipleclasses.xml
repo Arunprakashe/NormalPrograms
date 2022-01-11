@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression_suite">
+	<test name="petstore_user_reg">
+		<classes>
+			<class name="testNGFramework.PetStore" />
+		</classes>
+	</test> <!-- Test -->
+ 
+	<test name="Formy_user_Reg">
+		<classes>
+			<class name="testNGFramework.Formy" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Search_Product">
+		<classes>
+			<class name="testNGFramework.Flipkart" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
